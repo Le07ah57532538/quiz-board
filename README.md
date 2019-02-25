@@ -6,7 +6,7 @@
 ## Setup/Installation Requirements
 *  This is a great site.
 *  It is user friendly.
-*  All you need to do is click on the right .
+*  All you need to do is click on the right answer.
 *  It is simple.
 *  And easy-to-understand.
 ## Known Bugs
