@@ -1,48 +1,50 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-      <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script  src="https://code.jquery.com/jquery-3.3.1.js" ></script>
-    <script src= "js/scripts.js"></script>
-    <meta charset="utf-8">
-    <title>QUIZ BOARD</title>
-  <body>
-    <div class="container">
-  <div class="jumbotron">
-  </head>
-  <h1 style="background-color:DodgerBlue;">JAVASCRIPT QUIZ</h1>
-  <h4 style="color:Tomato;">Instructions.</h4>
-  <li>Cheating is not allowed.</li>
-  <li>Read through all questions carefully before answering.</li>
-  <li>All questions should be answered before you submit.</li>
-</div>
-<p></p>
- <h4>which among this is a programming language</h4>
-      <form>
-<input type="radio" name="choice" value="0"> html
-<input type="radio" name="choice" value="0">css
-<input type="radio" name="choice" value="30"> javascript
-<input type="radio" name="choice" value="0"> None of the above
-<div><input type="submit" value="answers" /></div>
-</form>
-<h4>DOM is used for what purpose</h4>
-        <div>
-        <form >
+<head>
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<script  src="https://code.jquery.com/jquery-3.3.1.js" ></script>
+<script src= "js/scripts.js"></script>
+<meta charset="utf-8">
+<title>QUIZ BOARD</title>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+    </head>
+    <h1 class="jumbotron"style="background-color:DodgerBlue;">JAVASCRIPT QUIZ</h1>
+    <h4 style="color:Tomato;">Instructions.</h4>
+    <li>Cheating is not allowed.</li>
+    <li>Read through all questions carefully before answering.</li>
+    <li>All questions should be answered before you submit.</li>
+  </div>
 
-<input type="radio" name="choice" value="Browser interpretation of the HTML is reads">Browser interpretation of the HTML is reads
-<input type="radio" name="choice" value="creating set of instructions">creating set of instructions
-<input type="radio" name="choice" value="Am not sure"> Am not sure
-<input type="radio" name="choice" value="None of the above"> None the above
-<div><input type="submit" value="answers" /></div>
-</form>
-<script src="js/scripts.js"></script>
+  <form id="quiz">
+    <h4>1.Which among this is a programming language.(20marks)</h4>
+    <form>
 
-<h4>What is not a Javascript operator</h4>
-<input type="radio" name="choice" value="+=="> +==
-<input type="radio" name="choice" value="==+">==+
-<input type="radio" name="choice" value="==="> ===
-<input type="radio" name="choice" value="None of the above"> None the above
-<div><input type="submit" value="answers" /></div>
-<input type="submit" value="submit">
-</body>
-</html>
+      <input type="radio" name="choice1" value="0"> html
+      <input type="radio" name="choice1" value="0">css
+      <input type="radio" name="choice1" value="30"> javascript
+      <input type="radio" name="choice1" value="0"> None of the above
+
+    <h4>2.DOM is used for what purpose.(20marks)</h4>
+    <div>
+
+        <input type="radio" name="choice2" value="30">Browser interpretation of the HTML is reads
+        <input type="radio" name="choice2" value="0">creating set of instructions
+        <input type="radio" name="choice2" value="0"> Am not sure
+        <input type="radio" name="choice2" value="0"> None the above
+
+
+      <h4>3.What is not a Javascript operator.(10marks)</h4>
+      <input type="radio" name="choice3" value="0"> +==
+      <input type="radio" name="choice3" value="40">==+
+      <input type="radio" name="choice3" value="0"> ===
+      <input type="radio" name="choice3" value="0"> None the above
+      <br></br>
+      <input type="submit" value="submit">
+      <div id="output"></div>
+  </form>
+  <div id="output"></div>
+  <div id="output2"></div>
+  </body>
+  </html>
